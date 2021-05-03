@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:title="help center"
+        android:icon="@drawable/ic_baseline_live_help_24"
+        app:showAsAction="always"
+        >
+     <menu>
+
+    <item
+        android:title="Suggestion"
+        android:id="@+id/suggestionnav_barid"
+        />
+    <item
+        android:title="Help"
+        android:id="@+id/helpnav_barid"
+        />
+    <item
+        android:title="Rate Us"
+        android:id="@+id/rateusnav_barid"
+        />
+    <item
+        android:title="Share"
+        android:id="@+id/Sharenav_barid"
+        >
+        <menu>
+
+            <item
+                android:title="Messenger"
+                android:id="@+id/messagernavid"
+                />
+            <item
+                android:title="Whatsapp"
+                android:id="@+id/whatsappnnav_barid"
+                />
+            <item
+                android:title="Shareit"
+                android:id="@+id/shareitnav_barid"
+                />
+        </menu>
+
+    </item>
+
+</menu>
+    </item>
+</menu>
+
+
+
+
+
+
+
+
+
+
+
+
